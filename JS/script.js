@@ -1,6 +1,6 @@
 // Script regarding players, using MCAPI - https://mcapi.us/
 window.addEventListener('load', function theseFunc() {
-        MinecraftAPI.getServerStatus('fi2.falixnodes.net', {
+        MinecraftAPI.getServerStatus('95.217.38.85', {
                 port: 26886
         }, function (err, status) {
                 if (err) {
