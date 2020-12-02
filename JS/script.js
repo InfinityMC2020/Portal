@@ -1,7 +1,7 @@
 // Script regarding players, using MCAPI - https://mcapi.us/
 window.addEventListener('load', function theseFunc() {
         MinecraftAPI.getServerStatus('95.217.38.85', {
-                port: 27524
+                port: 45942
         }, function (err, status) {
                 if (err) {
                         return document.querySelector('.players').innerHTML = 'Error...';
